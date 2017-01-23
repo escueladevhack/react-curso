@@ -11,7 +11,7 @@ function FooCtrl(FooService) {
   const that = this;
 
   FooService
-    .getUser((response) => {
+    .getUser(function (response) { // eslint-disable-line prefer-arrow-callback
       that.user = response;
     });
 }

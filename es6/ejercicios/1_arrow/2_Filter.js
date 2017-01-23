@@ -7,5 +7,7 @@
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const es5OddNumbers = numbers.filter(number => number % 2);
+const es5OddNumbers = numbers.filter(function (number) { // eslint-disable-line prefer-arrow-callback, max-len
+  return number % 2;
+});
 console.log(es5OddNumbers);
