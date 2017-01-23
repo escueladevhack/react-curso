@@ -8,6 +8,6 @@ Intenta resolver los ejercicios de es6.
 
 ## ES6: Run file
 
-``node path/to/file.js``
+`node path/to/file.js`
 
 

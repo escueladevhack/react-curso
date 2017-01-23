@@ -4,15 +4,15 @@
 ## Installation
 
 ### Install YARN (if not installed) 
-```npm i -g yarn```
+`npm i -g yarn`
 
 ### Install npm modules
-```yarn```
+`yarn`
 
 ## Linter
 
-``yarn eslint``
+`yarn eslint`
 
 ## ES6: Run file
 
-``node path/to/file.js``
+`node path/to/file.js`
