@@ -4,17 +4,10 @@ Intenta resolver los ejercicios de es6.
 
 ## Installation
 
-### Install YARN (if not installed) 
-```npm i -g yarn```
+[Installation instruction](../README.md)
 
-### Install npm modules
-```yarn```
-
-## Linter
-
-``yarn eslint``
-
-## Run file
+## ES6: Run file
 
 ``node path/to/file.js``
+
 

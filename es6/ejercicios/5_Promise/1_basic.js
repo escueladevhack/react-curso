@@ -1,4 +1,8 @@
 
+/*
+* Check the example
+**/
+
 function timeout(duration = 0) {
   return new Promise((resolve) => {
     console.log('called timeout', duration);

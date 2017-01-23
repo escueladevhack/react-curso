@@ -6,7 +6,7 @@
 const name = 'John';
 const age = 30;
 
-console.log(`Mr ${name} is ${age} years old`);
+console.log('Mr ' + name + ' is ' + age + ' years old'); // eslint-disable-line prefer-template
 console.log(
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n' +
   'Ut fermentum augue a hendrerit rhoncus. Morbi consequat porta molestie. \n' +
