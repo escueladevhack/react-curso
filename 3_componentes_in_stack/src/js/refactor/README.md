@@ -10,7 +10,7 @@
 2. Try to format component
 3. Try to refactor with es6 features
 4. Try to refactor component by best practises (Wrapper, Simple component, Smart vs. Dump components, ...)
-5. You should have at least 3 components.
+5. You should have at least 3 components. (Recommendation: create dump component of posts list. It will be useful in next task.)
 6. Implement filter feature
 
 ##**Bonus (optional)**

@@ -48,7 +48,7 @@ export default class BadNameForClassYouCanCreateBetter extends React.Component {
   }
 
   componentWillUpdate() {
-    console.log('------------- Working');
+    console.log('------------- Working?');
   }
 
   filter() {

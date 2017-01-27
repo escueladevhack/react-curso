@@ -1,6 +1,5 @@
 # Exercises
 
-1. Install project
 
 ## Install Project
 `yarn`
@@ -11,7 +10,13 @@
 ##Development
 
 ###Develop Project
- `MODE=refactor/router/todo yarn start`
+ Options:  **['refactor', 'router', 'example']** default: **todo**  
+ ```
+ 
+ MODE=refactor yarn start
+ 
+ ```
+ 
 
 ##Develop Tests 
  `yarn test:watch`
