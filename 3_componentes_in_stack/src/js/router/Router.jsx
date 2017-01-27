@@ -9,6 +9,7 @@ const App = props =>
       <h1>App</h1>
       {/* change the <a>s to <Link>s */}
       <ul>
+        <li><Link activeStyle={{ color: 'blue' }} to="/">Home</Link></li>
         <li><Link activeStyle={{ color: 'blue' }} to="/about">About</Link></li>
         <li><Link activeStyle={{ color: 'blue' }} to="/inbox">Inbox</Link></li>
       </ul>
@@ -25,11 +26,14 @@ App.propTypes = {
   children: React.PropTypes.node,
 };
 
-const Home = () => (
-  <div>
-    Home
-  </div>
-);
+const Home = (props) => {
+  console.log(props);
+  return (
+    <div>
+      Home
+    </div>
+  );
+};
 
 const About = () => (
   <div>
