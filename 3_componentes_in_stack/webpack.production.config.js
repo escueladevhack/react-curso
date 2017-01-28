@@ -39,41 +39,22 @@ module.exports = {
   resolve: {
     extensions: [ '', '.js', '.jsx' ]
   },
+
+
   module: {
-    loaders: [ {
-      test: /\.jsx?$/,
-      loaders: [ 'babel' ],
-      include: path.join(__dirname, 'src')
-    },
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: [ 'babel' ],
+        include: path.join(__dirname, 'src')
+      },
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract("css!postcss-loader?sourceMap"),
       },
-      // {
-      //     test: /\.json$/,
-      //     loader: 'json-loader'
-      // },
-      // {
-      //     test: /\.(png|jpg|gif)$/,
-      //     loader: 'file-loader?name=img/img-[hash:6].[ext]'
-      // },
-      // {
-      //     test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader?mimetype=image/svg+xml'
-      // },
-      // {
-      //     test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader?mimetype=application/font-woff'
-      // },
-      // {
-      //     test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader?mimetype=application/font-woff'
-      // },
-      // {
-      //     test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader?mimetype=application/octet-stream'
-      // },
-      // {
-      //     test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader'
-      // }
-    ]
+    ],
   },
+
   postcss: function (webpack) {
     return [
       require("postcss-import")({ addDependencyTo: webpack }),
