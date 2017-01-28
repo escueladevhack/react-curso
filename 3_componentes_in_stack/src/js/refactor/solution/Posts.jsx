@@ -1,4 +1,3 @@
-// /* eslint-disable */
 import React from 'react';
 import { Grid, Cell, Textfield } from 'react-mdl';
 import fetch from 'isomorphic-fetch';

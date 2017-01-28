@@ -2,7 +2,7 @@
 
 
 ## Run Project
-`MODE=routes yarn start`
+`MODE=router yarn start`
 
 ## Tasks
 
