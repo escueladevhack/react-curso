@@ -1,26 +1,7 @@
-# React Stack Example [![Build Status](https://travis-ci.org/TondaHack/react-stack.svg?branch=master)](https://travis-ci.org/TondaHack/react-stack)
+# 5 React - Redux app
 
-Example of stack for React.js written in ES6. Bundled by Webpack for develop with HotReload.
+1. Check
 
-Tests are configured by Jest, Sinon, Expect.
-
-Tests are configured by Karma, Mocha, Sinon, Expect. Coverage is visualized by iSparta modul. 		 +Tests are configured by Jest, Sinon, Expect.
-		
-Travis build to gh-page. [Live example](http://tondahack.github.io/react-stack/)		
-
-##Prerequisites
-- Node.js
-
-##Technologies
-- [React](https://facebook.github.io/react/)
-- [Redux](http://redux.js.org/)
-- [Immutable.js](https://facebook.github.io/immutable-js/)
-- [Webpack](https://webpack.github.io/)
-- [Cssnext](http://cssnext.io/)
-- [Karma](https://karma-runner.github.io/1.0/index.html)
-- [Mocha](https://mochajs.org/)
-- [PhantomJS](http://phantomjs.org/)
-- [MaterialDesignLite](https://tleunen.github.io/react-mdl/)
 
 ## Install Project
 `yarn`

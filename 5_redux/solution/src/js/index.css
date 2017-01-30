@@ -1,0 +1,12 @@
+:root{
+    font-size: 20px;
+}
+
+.blog-header{
+    padding-bottom: 1em;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
