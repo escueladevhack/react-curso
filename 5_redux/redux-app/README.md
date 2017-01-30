@@ -1,26 +1,14 @@
-# React Stack Example [![Build Status](https://travis-ci.org/TondaHack/react-stack.svg?branch=master)](https://travis-ci.org/TondaHack/react-stack)
+# Redux app 
 
-Example of stack for React.js written in ES6. Bundled by Webpack for develop with HotReload.
-
-Tests are configured by Jest, Sinon, Expect.
-
-Tests are configured by Karma, Mocha, Sinon, Expect. Coverage is visualized by iSparta modul. 		 +Tests are configured by Jest, Sinon, Expect.
-		
-Travis build to gh-page. [Live example](http://tondahack.github.io/react-stack/)		
-
-##Prerequisites
-- Node.js
-
-##Technologies
-- [React](https://facebook.github.io/react/)
-- [Redux](http://redux.js.org/)
-- [Immutable.js](https://facebook.github.io/immutable-js/)
-- [Webpack](https://webpack.github.io/)
-- [Cssnext](http://cssnext.io/)
-- [Karma](https://karma-runner.github.io/1.0/index.html)
-- [Mocha](https://mochajs.org/)
-- [PhantomJS](http://phantomjs.org/)
-- [MaterialDesignLite](https://tleunen.github.io/react-mdl/)
+1. Please check all app (components, actions, reducers, lib )
+2. In app are missing comments. Check funcionality on [result solution](https://escueladevhack.github.io/react-curso/) 
+3. Your task is add Comment feature
+4. Change actions ./react-curso/5_redux/redux-app/src/js/actions/comments.js using server request
+5. Create new comments reducer for comments data
+6. Connect data in 
+/react-curso/5_redux/redux-app/src/js/components/reduxContainers/postDetailContainer.js
+and /react-curso/5_redux/redux-app/src/js/components/reduxContainers/postListItemContainer.js
+7. Create Component for Comments list
 
 ## Install Project
 `yarn`
