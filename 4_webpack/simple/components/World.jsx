@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class World extends React.Component {
   render() {
-    return <h1>World</h1>
+    return <h1>World erger</h1>
   }
 }
 
@@ -13,6 +13,6 @@ const renderApp = () => {
 
 renderApp();
 
-if (module && module.hot && module.hot.accept) {
-  module.hot.accept(World, renderApp);
-}
+// if (module && module.hot && module.hot.accept) {
+//   module.hot.accept(World, renderApp);
+// }

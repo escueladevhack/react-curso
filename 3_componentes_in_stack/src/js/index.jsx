@@ -4,7 +4,7 @@ import './todoApp/index.css';
 
 import App from './todoApp/index';
 import Posts from './refactor/Posts';
-import Router from './router/Router';
+import Router from './router/solution/index';
 import Example from './example/Example';
 
 const mode = process.env.MODE;
