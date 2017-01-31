@@ -1,6 +1,6 @@
 # Example
 
-A very simple example of React - Redux application. One file, 63 lines with comments. 
+A very simple example of React - Redux application. One file, 68 lines with comments. 
 [Check this file](https://github.com/escueladevhack/react-curso/blob/master/5_redux/simple-redux/src/js/index.jsx)
 
 
