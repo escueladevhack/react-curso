@@ -1,3 +1,4 @@
+
 # Redux app 
 
 1. Please check all app (components, actions, reducers, lib )
@@ -10,7 +11,6 @@
 and /react-curso/5_redux/redux-app/src/js/components/reduxContainers/postListItemContainer.js
 7. Create Component for Comments list
 8. Don't forget write tests
-
 
 ## Install Project
 `yarn`
