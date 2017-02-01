@@ -1,27 +1,21 @@
 /* eslint-disable */
 'use strict';
-
 require('babel-register');
-import { renderToString } from 'react-dom/server';
-// const {} = require('react-dom/');
-// const Example = require('./src/js/example/solution/Item');
+import { renderToString } from 'react-dom/server'; // server-side rendering is working thanks to this method
 import Example from './src/js/example/solution/Example';
 import React from 'react';
-
-
-
-const path = require('path');
-const express = require('express');
-const webpack = require('webpack');
-const webpackMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
-const config = require('./webpack.config.js');
+import path from 'path';
+import express from 'express';
+import webpack from 'webpack';
+import webpackMiddleware from 'webpack-dev-middleware';
+import webpackHotMiddleware from 'webpack-hot-middleware';
+import config from './webpack.config.js';
 
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 3000 : process.env.PORT;
 const app = express();
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); // server-side rendering part - set ejs as view engine
 
 if (isDeveloping) {
   const compiler = webpack(config);
@@ -47,6 +41,10 @@ if (isDeveloping) {
 } else {
   app.use(express.static(__dirname + '/dist'));
   app.get('*', function response(req, res) {
+    /*
+    * server-side rendering and passing rendered components to dom using ejs
+    *
+    * */
     const html = renderToString(<Example />);
     res.render(path.join(__dirname, 'dist/index.ejs'), {reactOutput: html });
   });

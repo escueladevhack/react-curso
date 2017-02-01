@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: '!!html!./src/index.ejs',
+      template: '!!html!./src/index.ejs', // !!html loader to keep ejs variable, part of server-side rendering
       inject: 'body',
       filename: 'index.ejs',
     }),
