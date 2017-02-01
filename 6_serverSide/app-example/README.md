@@ -8,6 +8,10 @@ Check next files
 * `/react-curso/6_serverSide/app-example/src/index.ejs`
 
 
+## To see server side-rendering run `yarn run production`
+
+
+
 ## Install Project
 `yarn`
 
